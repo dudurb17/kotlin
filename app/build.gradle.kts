@@ -49,5 +49,9 @@ sourceSets {
 application {
     // Define the main class for the application.
     mainClass = "HelloWorldKt"
-    
+}
+
+// Conecta o stdin do terminal ao programa (necessário para readLine funcionar)
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
 }

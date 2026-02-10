@@ -61,7 +61,7 @@ kotlin_app/
 ### Executar a aplicação
 
 ```bash
-./gradlew run
+./gradlew :app:run --console=plain -q;  
 ```
 
 Saída esperada:
@@ -73,7 +73,7 @@ Hello World!
 ### Executar os testes
 
 ```bash
-./gradlew test
+./gradlew test 
 ```
 
 ### Build do projeto

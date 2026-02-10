@@ -48,7 +48,7 @@ sourceSets {
 
 application {
     // Define the main class for the application.
-    mainClass = "HelloWorldKt"
+    mainClass = "MainKt"
 }
 
 // Conecta o stdin do terminal ao programa (necessário para readLine funcionar)

@@ -11,6 +11,12 @@ fun main() {
     // val division = Division()
     // division.main()
 
-    val conditionalOperator = ConditionalOperator()
-    conditionalOperator.main()
+    // val conditionalOperator = ConditionalOperator()
+    // conditionalOperator.main()
+
+    // val combineOperators = CombineOperators()
+    // combineOperators.main()
+    val whatToDo = WhatToDo()
+    whatToDo.main()
+
 }

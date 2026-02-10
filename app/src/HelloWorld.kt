@@ -1,8 +1,10 @@
 
 fun main() {
-    println("Hello, World!")
-    TestPrint().main()
+    val typesOfVariables = TypesOfVariables()
+    val testPrint = TestPrint()
     val profile = Profile()
+    typesOfVariables.main()
+    testPrint.main()
     profile.requestProfile()
     profile.main()
 }

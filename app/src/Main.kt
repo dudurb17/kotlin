@@ -8,6 +8,9 @@ fun main() {
     // profile.requestProfile()
     // profile.main()
 
-    val division = Division()
-    division.main()
+    // val division = Division()
+    // division.main()
+
+    val conditionalOperator = ConditionalOperator()
+    conditionalOperator.main()
 }
